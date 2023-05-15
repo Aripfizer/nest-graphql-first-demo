@@ -91,18 +91,7 @@ export class DefaultSeeder {
   }
 }
 
-interface PermissionDto {
-  id: number;
-  name: string;
-  method: string;
-  url: string;
-}
 
-interface RolesDto {
-  id: number;
-  name: string;
-  permissions: number[];
-}
 
 export interface UserDto {
   id?: number;
